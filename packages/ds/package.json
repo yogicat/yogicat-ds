@@ -1,0 +1,24 @@
+{
+  "name": "@yogicat/ds",
+  "version": "0.0.1",
+  "description": "yogicat design system",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/utils.esm.js",
+  "author": "Dahye Oh",
+  "license": "MIT",
+  "repository": {
+    "directory": "packages/ds",
+    "type": "git",
+    "url": "git+https://github.com/yogicat/yogicat-ds.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "tsdx build --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "@yogicat/button": "0.0.4"
+  }
+}
