@@ -1,0 +1,16 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "description": "button",
+  "author": "Dahye Oh",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdx build",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
