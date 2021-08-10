@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@yogicat/button",
   "version": "0.0.3",
   "description": "button",
   "author": "Dahye Oh",
@@ -11,7 +11,7 @@
     "dist"
   ],
   "publishConfig": {
-    "@yogicat/button:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "directory": "packages/button",
