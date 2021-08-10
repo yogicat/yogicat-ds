@@ -1,5 +1,11 @@
 # button
 
+## 0.0.4
+
+### Patch Changes
+
+- 20b1701: fix package name
+
 ## 0.0.3
 
 ### Patch Changes
