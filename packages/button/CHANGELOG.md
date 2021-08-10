@@ -1,5 +1,11 @@
 # button
 
+## 0.0.5
+
+### Patch Changes
+
+- 551b607: add tsconfig setting
+
 ## 0.0.4
 
 ### Patch Changes
