@@ -1,6 +1,6 @@
 {
   "name": "@yogicat/ds",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "yogicat design system",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "@yogicat/button": "^0.0.5",
-    "@yogicat/input": "0.0.0"
+    "@yogicat/input": "0.0.1"
   }
 }
