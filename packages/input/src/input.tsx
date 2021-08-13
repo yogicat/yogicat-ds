@@ -3,7 +3,7 @@ import React from 'react'
 export const Input = () => {
   return (
     <label>
-      Cool input label
+      Very very cool input label
       <input type="text" name="text" required />
     </label>
   )
