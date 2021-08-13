@@ -19,6 +19,7 @@
     "build": "tsdx build --tsconfig ./tsconfig.json"
   },
   "dependencies": {
-    "@yogicat/button": "0.0.5"
+    "@yogicat/button": "^0.0.5",
+    "@yogicat/input": "0.0.0"
   }
 }

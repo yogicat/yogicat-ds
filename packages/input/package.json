@@ -1,0 +1,25 @@
+{
+  "name": "@yogicat/input",
+  "version": "0.0.0",
+  "description": "input",
+  "author": "Dahye Oh",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/utils.esm.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "directory": "packages/input",
+    "type": "git",
+    "url": "git+https://github.com/yogicat/yogicat-ds.git"
+  },
+  "scripts": {
+    "build": "tsdx build",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
