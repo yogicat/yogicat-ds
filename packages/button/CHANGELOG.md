@@ -1,5 +1,11 @@
 # button
 
+## 0.1.0
+
+### Minor Changes
+
+- 1295bde: Add text prop
+
 ## 0.0.5
 
 ### Patch Changes
