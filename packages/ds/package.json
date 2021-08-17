@@ -1,6 +1,6 @@
 {
   "name": "@yogicat/ds",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "yogicat design system",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -19,7 +19,7 @@
     "build": "tsdx build --tsconfig ./tsconfig.json"
   },
   "dependencies": {
-    "@yogicat/button": "^0.0.5",
+    "@yogicat/button": "^0.1.0",
     "@yogicat/input": "0.0.1"
   }
 }
