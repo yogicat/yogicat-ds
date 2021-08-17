@@ -1,5 +1,5 @@
 import React from 'react'
 
-export const Button = () => {
-  return <div>I am a cool button</div>
+export const Button = ({ text }: { text: string }) => {
+  return <div>{text}</div>
 }
