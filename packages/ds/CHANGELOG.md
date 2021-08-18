@@ -1,5 +1,14 @@
 # @yogicat/ds
 
+## 1.0.4
+
+### Patch Changes
+
+- Updated dependencies [f4f0181]
+- Updated dependencies [095e2c8]
+- Updated dependencies [98d765b]
+  - @yogicat/button@0.2.0
+
 ## 1.0.3
 
 ### Patch Changes
