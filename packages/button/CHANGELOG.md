@@ -1,5 +1,16 @@
 # button
 
+## 0.2.0
+
+### Minor Changes
+
+- 095e2c8: Add emotion style
+- 98d765b: Install storybook and add button storybook
+
+### Patch Changes
+
+- f4f0181: fix style
+
 ## 0.1.0
 
 ### Minor Changes
