@@ -7,10 +7,6 @@ export interface ButtonProps {
    */
   primary?: boolean
   /**
-   * What background color to use
-   */
-  backgroundColor?: string
-  /**
    * How large should the button be?
    */
   size?: 'small' | 'medium' | 'large'
@@ -38,18 +34,14 @@ const StyledButton = styled.button<Pick<ButtonProps, 'primary' | 'size'>>`
   box-shadow: ${({ primary }) =>
     primary ? 'none' : 'rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset'};
 
-  .storybook-button--small {
-    font-size: 12px;
-    padding: 10px 16px;
-  }
-  .storybook-button--medium {
-    font-size: 14px;
-    padding: 11px 20px;
-  }
-  .storybook-button--large {
-    font-size: 16px;
-    padding: 12px 24px;
-  }
+  font-size: ${({ size }) =>
+    size === 'small' ? '12px' : size === 'medium' ? '14px' : '16px'};
+  padding: ${({ size }) =>
+    size === 'small'
+      ? '10px 16px'
+      : size === 'medium'
+      ? '11px 20px'
+      : '12px 24px'};
 `
 /**
  * Primary UI component for user interaction
@@ -57,23 +49,10 @@ const StyledButton = styled.button<Pick<ButtonProps, 'primary' | 'size'>>`
 export const Button = ({
   primary = false,
   size = 'medium',
-  backgroundColor,
   label,
   ...props
-}: ButtonProps) => {
-  const mode = primary
-    ? 'storybook-button--primary'
-    : 'storybook-button--secondary'
-  return (
-    <StyledButton
-      type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(
-        ' '
-      )}
-      style={{ backgroundColor }}
-      {...props}
-    >
-      {label}
-    </StyledButton>
-  )
-}
+}: ButtonProps) => (
+  <StyledButton type="button" primary={primary} size={size} {...props}>
+    {label}
+  </StyledButton>
+)
