@@ -21,5 +21,8 @@
   "dependencies": {
     "@yogicat/button": "^0.1.0",
     "@yogicat/input": "0.0.1"
+  },
+  "devDependencies": {
+    "react": "^17.0.2"
   }
 }
