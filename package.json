@@ -18,12 +18,16 @@
     "clean:packages": "yarn clean && yarn clean:dist",
     "commitlint": "commitlint",
     "commit": "cz",
-    "husky": "husky"
+    "husky": "husky",
+    "storybook": "start-storybook -p 6006",
+    "prestorybook": "rimraf node_modules/.cache/storybook",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@storybook/addon-actions": "^6.3.7",
     "@storybook/addon-essentials": "^6.3.7",
     "@storybook/addon-links": "^6.3.7",
     "@storybook/addons": "^6.3.7",
